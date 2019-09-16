@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 1325526113
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 949da3855e0e316ee9a5b55f78e5be23
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d5fdb2344c6831b949975e457f305696
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/RealFram/ABTest/Cylinder.prefab
+- Assets/RealFram/ABTest/Gem2-1500x1346.jpg
+- Assets/RealFram/ABTest/cylinder.mat
+Dependencies: []

@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 240663385
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b490d8480495d5ae05874743428c2644
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aa5c26b31362c7b1d812689c1e3d22a6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a5ebb11c6fc3a2f498bd89593f7744aa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab
+- Packages/com.unity.analytics/DataPrivacy/DataPrivacyIcon.png
+Dependencies: []

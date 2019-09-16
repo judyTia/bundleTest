@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1863797865
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 919ce9214bb61eb5e3731fe9d0bcd4c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ad3238d354ac0097b3abdf4d79d4b405
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77a7432320518724092f03d1e2eee645, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/NetworkBehaviourCallbacksOrderOnTheHost/Resources/PlayerCallbacksOrderOnTheHost_PlayerPrefab.prefab
+Dependencies: []

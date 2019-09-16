@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1878270746
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cf90c3b80afca787fa3c58687a252f40
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e641ff96e48675e63ecc6ab9ada32ed4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 385cfd3170b11b64aa9cbd23d6b0489f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/AuthorityOnSpawnedObjectsIsCorrect/Resources/PlayerWithAuthPrefab.prefab
+Dependencies: []

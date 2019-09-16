@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1087452758
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d9d35f659b3e3cb5a37f9f2ba83f78a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2164263bd948184a9373784f776f453a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/JsonTest/Pic/Picture2.jpg
+- Assets/JsonTest/Pic/New Material.mat
+- Assets/JsonTest/Pic/Picture1.png
+- Assets/JsonTest/Pic/Main_image.png
+- Assets/JsonTest/Pic/Main_Background_Parliament.png
+Dependencies: []

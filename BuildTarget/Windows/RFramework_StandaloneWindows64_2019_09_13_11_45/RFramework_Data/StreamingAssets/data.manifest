@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1099540755
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6109819496c2d17bd5371db0bc6f6e28
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/RealFram/Data/Binary/BuffData.bytes
+Dependencies: []

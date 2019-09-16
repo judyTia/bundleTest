@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3879081331
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b6ddaf41f68eaf7e0bfe75ba67abeb9f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dce6428a9183bddc9d962f51d46fb04b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/NetworkMigrationWorks/Resources/PlayerGameObject.prefab
+Dependencies: []

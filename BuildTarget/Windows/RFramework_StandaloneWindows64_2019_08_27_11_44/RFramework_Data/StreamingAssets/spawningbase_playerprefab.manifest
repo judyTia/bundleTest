@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 2178298591
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3cb45d97ae24023114264a41188c4a7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4c4badf6dd6d9320fd60478a9ff03cf5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec2008c107e8a1b4b8222ddb5f7ffbf0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/SpawningTests/Resources/SpawningBase_PlayerPrefab.prefab
+Dependencies: []

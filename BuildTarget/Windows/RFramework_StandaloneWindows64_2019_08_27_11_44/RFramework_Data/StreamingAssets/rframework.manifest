@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 734721808
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 40336e38d6f462152e66a6bbdd0d6fbe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6622688209a2d54739ce41d4e54fc046
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: af31bd6578d876a4dba288d9e3e97c8b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/RealFram/FramePlug/RFramework.prefab
+Dependencies: []

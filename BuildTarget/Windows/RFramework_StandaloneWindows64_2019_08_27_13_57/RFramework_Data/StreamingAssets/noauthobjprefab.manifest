@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3055574153
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 375a866ac617038be585ab09c12a3f15
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c81ecf1df99906807724db065e671b74
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a8305c0bafcd2604fb3d8545b4092f56, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/AuthorityOnSpawnedObjectsIsCorrect/Resources/NoAuthObjPrefab.prefab
+Dependencies: []

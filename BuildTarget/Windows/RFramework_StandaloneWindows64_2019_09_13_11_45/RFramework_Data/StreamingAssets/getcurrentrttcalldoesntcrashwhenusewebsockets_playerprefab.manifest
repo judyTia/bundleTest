@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 24773638
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1fdb78d4c1e8411f8d3c59404906cd7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 74710b51428fe87711df47b43125d7f4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 70fd9431a22924742bf19e22aeeaa118, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f8258ea15b8f74c4889ce485d21cbbb1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Packages/com.unity.multiplayer-hlapi/Tests/Runtime/GetCurrentRTTCallDoesntCrashWhenUseWebSockets/Resources/GetCurrentRTTCallDoesntCrashWhenUseWebSockets_PlayerPrefab.prefab
+Dependencies: []

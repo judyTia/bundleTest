@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AssetBundleConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/AuthorityOnSpawnedObjectsIsCorrect/Resources/AuthObjPrefab.prefab" Crc="2904713503" ABName="authobjprefab" AssetName="AuthObjPrefab.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/NetworkManagerCallbacksOrderOnTheHost/Resources/CleanPlayerPrefab.prefab" Crc="2236633261" ABName="cleanplayerprefab" AssetName="CleanPlayerPrefab.prefab" />
+  <ABList Path="Assets/build/Cube.prefab" Crc="2955541658" ABName="cube" AssetName="Cube.prefab" />
+  <ABList Path="Assets/build/Cylinder.prefab" Crc="335351927" ABName="cylinder" AssetName="Cylinder.prefab" />
+  <ABList Path="Assets/RealFram/Data/Binary/BuffData.bytes" Crc="2262473451" ABName="data" AssetName="BuffData.bytes" />
+  <ABList Path="Packages/com.unity.analytics/DataPrivacy/DataPrivacyButton.prefab" Crc="2793722965" ABName="dataprivacybutton" AssetName="DataPrivacyButton.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/GetCurrentRTTCallDoesntCrashWhenUseWebSockets/Resources/GetCurrentRTTCallDoesntCrashWhenUseWebSockets_PlayerPrefab.prefab" Crc="3440042345" ABName="getcurrentrttcalldoesntcrashwhenusewebsockets_playerprefab" AssetName="GetCurrentRTTCallDoesntCrashWhenUseWebSockets_PlayerPrefab.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/AuthorityOnSpawnedObjectsIsCorrect/Resources/NoAuthObjPrefab.prefab" Crc="490656517" ABName="noauthobjprefab" AssetName="NoAuthObjPrefab.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/NetworkBehaviourCallbacksOrderOnTheHost/Resources/PlayerCallbacksOrderOnTheHost_PlayerPrefab.prefab" Crc="298137325" ABName="playercallbacksorderonthehost_playerprefab" AssetName="PlayerCallbacksOrderOnTheHost_PlayerPrefab.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/NetworkMigrationWorks/Resources/PlayerGameObject.prefab" Crc="811921825" ABName="playergameobject" AssetName="PlayerGameObject.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/AuthorityOnSpawnedObjectsIsCorrect/Resources/PlayerWithAuthPrefab.prefab" Crc="1899068635" ABName="playerwithauthprefab" AssetName="PlayerWithAuthPrefab.prefab" />
+  <ABList Path="Assets/RealFram/FramePlug/RFramework.prefab" Crc="249842300" ABName="rframework" AssetName="RFramework.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/SpawningTests/Resources/SpawningBase_PlayerPrefab.prefab" Crc="23530479" ABName="spawningbase_playerprefab" AssetName="SpawningBase_PlayerPrefab.prefab" />
+  <ABList Path="Packages/com.unity.multiplayer-hlapi/Tests/Runtime/SpawningTests/Resources/SpawningBase_SpawnableObjectPrefab.prefab" Crc="3644868883" ABName="spawningbase_spawnableobjectprefab" AssetName="SpawningBase_SpawnableObjectPrefab.prefab" />
+</AssetBundleConfig>

@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 1216514708
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: json
+      Dependencies: {}
+    Info_1:
+      Name: data
+      Dependencies: {}
+    Info_2:
+      Name: cube
+      Dependencies: {}
+    Info_3:
+      Name: cylinder
+      Dependencies: {}
+    Info_4:
+      Name: rframework
+      Dependencies: {}
+    Info_5:
+      Name: dataprivacybutton
+      Dependencies: {}
+    Info_6:
+      Name: authobjprefab
+      Dependencies: {}
+    Info_7:
+      Name: noauthobjprefab
+      Dependencies: {}
+    Info_8:
+      Name: playerwithauthprefab
+      Dependencies: {}
+    Info_9:
+      Name: getcurrentrttcalldoesntcrashwhenusewebsockets_playerprefab
+      Dependencies: {}
+    Info_10:
+      Name: playercallbacksorderonthehost_playerprefab
+      Dependencies: {}
+    Info_11:
+      Name: cleanplayerprefab
+      Dependencies: {}
+    Info_12:
+      Name: playergameobject
+      Dependencies: {}
+    Info_13:
+      Name: spawningbase_playerprefab
+      Dependencies: {}
+    Info_14:
+      Name: spawningbase_spawnableobjectprefab
+      Dependencies: {}
+    Info_15:
+      Name: assetbundleconfig
+      Dependencies: {}

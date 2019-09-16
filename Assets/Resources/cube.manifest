@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 2101246217
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7b2c432417111f7c3fdc29246988a30c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 62ebf61a222925b6b4f513cb32a25bd9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/RealFram/ABTest/Cylinder.prefab
+- Assets/RealFram/ABTest/cube.mat
+- Assets/RealFram/ABTest/Gem2-1500x1346.jpg
+- Assets/RealFram/ABTest/A-gray-cat-crying-looking-upset.jpg
+- Assets/RealFram/ABTest/Cube.prefab
+- Assets/RealFram/ABTest/cylinder.mat
+Dependencies: []
