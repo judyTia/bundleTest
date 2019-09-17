@@ -41,17 +41,14 @@ public class AssetBundleManager : Singleton<AssetBundleManager>
             Debug.LogError("AssetBundleConfig is no exist!");
             return false;
         }
+        string json = textAsset.text;
+        var configjson = JsonUtility.FromJson<AssetBundleJson>(json);
 
-        MemoryStream stream = new MemoryStream(textAsset.bytes);
-        BinaryFormatter bf = new BinaryFormatter();
-        AssetBundleConfig config = (AssetBundleConfig)bf.Deserialize(stream);
-        stream.Close();
-
-        for (int i = 0; i < config.ABList.Count; i++)
+        for (int i = 0; i < configjson.ABbundles.Count; i++)
         {
-            ABBase abBase = config.ABList[i];
+            bundle abBase = configjson.ABbundles[i];
             ResouceItem item = new ResouceItem();
-            item.m_Crc = abBase.Crc;
+            item.m_Crc = abBase.crc;
             item.m_AssetName = abBase.AssetName;
             item.m_ABName = abBase.ABName;
             item.m_DependAssetBundle = abBase.ABDependce;
@@ -65,6 +62,30 @@ public class AssetBundleManager : Singleton<AssetBundleManager>
             }
         }
         return true;
+
+        //MemoryStream stream = new MemoryStream(textAsset.bytes);
+        //BinaryFormatter bf = new BinaryFormatter();
+        //AssetBundleConfig config = (AssetBundleConfig)bf.Deserialize(stream);
+        //stream.Close();
+
+        //for (int i = 0; i < config.ABList.Count; i++)
+        //{
+        //    ABBase abBase = config.ABList[i];
+        //    ResouceItem item = new ResouceItem();
+        //    item.m_Crc = abBase.Crc;
+        //    item.m_AssetName = abBase.AssetName;
+        //    item.m_ABName = abBase.ABName;
+        //    item.m_DependAssetBundle = abBase.ABDependce;
+        //    if (m_ResouceItemDic.ContainsKey(item.m_Crc))
+        //    {
+        //        Debug.LogError("重复的Crc 资源名:" + item.m_AssetName + " ab包名：" + item.m_ABName);
+        //    }
+        //    else
+        //    {
+        //        m_ResouceItemDic.Add(item.m_Crc, item);
+        //    }
+        //}
+        //return true;
     }
 
     /// <summary>
