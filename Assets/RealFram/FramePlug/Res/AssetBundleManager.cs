@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class AssetBundleManager : Singleton<AssetBundleManager>
@@ -27,21 +24,26 @@ public class AssetBundleManager : Singleton<AssetBundleManager>
     /// <returns></returns>
     public bool LoadAssetBundleConfig()
     {
-#if UNITY_EDITOR
-        if (!ResourceManager.Instance.m_LoadFormAssetBundle)
-            return false;
-#endif
+//#if UNITY_EDITOR
+//        if (!ResourceManager.Instance.m_LoadFormAssetBundle)
+//            return false;
+//#endif
 
         m_ResouceItemDic.Clear();
-        string configPath = ABLoadPath + m_ABConfigABName;
-        AssetBundle configAB = AssetBundle.LoadFromFile(configPath);
-        TextAsset textAsset = configAB.LoadAsset<TextAsset>(m_ABConfigABName);
+        //string configPath = ABLoadPath + m_ABConfigABName;
+        //AssetBundle configAB = AssetBundle.LoadFromFile(configPath);
+        //TextAsset textAsset = configAB.LoadAsset<TextAsset>(m_ABConfigABName);
+
+        TextAsset textAsset = Resources.Load("AssetbundleConfig1") as TextAsset;
         if (textAsset == null)
         {
             Debug.LogError("AssetBundleConfig is no exist!");
-            return false;
+
         }
         string json = textAsset.text;
+        Debug.Log(json);
+   
+       
         var configjson = JsonUtility.FromJson<AssetBundleJson>(json);
 
         for (int i = 0; i < configjson.ABbundles.Count; i++)

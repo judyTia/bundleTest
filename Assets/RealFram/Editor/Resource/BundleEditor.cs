@@ -21,34 +21,52 @@ public class BundleEditor
     [MenuItem("Tools/buildJson")]
     public static void BuildJson()
     {
+        
+        //AssetBundle configAB = AssetBundle.LoadFromFile(ABCONFIGPATH);
+        TextAsset textAsset = Resources.Load("AssetbundleConfig1") as TextAsset;
+        if (textAsset == null)
+        {
+            Debug.LogError("AssetBundleConfig is no exist!");
 
-
-        AssetBundleJson configJson = new AssetBundleJson();
-        configJson.ABbundles = new List<bundle>();
-        bundle abBase = new bundle();
-        abBase.ABName = "tsas";
-        abBase.crc = 1234234;
-        abBase.path = "dsfsd";
-
-        configJson.ABbundles.Add(abBase);
-        bundle abBase2 = new bundle();
-        abBase2.ABName = "tsas";
-        abBase2.crc = 1234234;
-        abBase2.path = "dsfsd";
-
-        configJson.ABbundles.Add(abBase2);
-
-        foreach (bundle o in configJson.ABbundles)
+        }
+        string json = textAsset.text;
+        Debug.Log(json);
+        var Assetssss = JsonUtility.FromJson<AssetBundleJson>(json);
+        foreach(var o in Assetssss.ABbundles)
         {
             Debug.Log(o.ABName);
             Debug.Log(o.crc);
             Debug.Log(o.path);
         }
-        string jsonPath = Application.dataPath + "/JsonTest/AssetbundleConfig.json";
-        string json = EditorJsonUtility.ToJson(configJson);
-        Debug.Log("json:   final   " + json);
-        System.IO.File.WriteAllText(jsonPath, json);
-        Debug.Log(EditorUserBuildSettings.activeBuildTarget);
+        //AssetBundleJson configJson = new AssetBundleJson();
+        //configJson.ABbundles = new List<bundle>();
+        //bundle abBase = new bundle();
+        //abBase.ABName = "tsas";
+        //abBase.crc = 1234234;
+        //abBase.path = "dsfsd";
+
+        //configJson.ABbundles.Add(abBase);
+        //bundle abBase2 = new bundle();
+        //abBase2.ABName = "tsas";
+        //abBase2.crc = 1234234;
+        //abBase2.path = "dsfsd";
+
+        //configJson.ABbundles.Add(abBase2);
+
+        //foreach (bundle o in configJson.ABbundles)
+        //{
+        //    Debug.Log(o.ABName);
+        //    Debug.Log(o.crc);
+        //    Debug.Log(o.path);
+        //}
+        //string jsonPath = Application.dataPath + "/JsonTest/AssetbundleConfig.json";
+        //string json = EditorJsonUtility.ToJson(configJson);
+        //Debug.Log("json:   final   " + json);
+        //System.IO.File.WriteAllText(jsonPath, json);
+        //Debug.Log(EditorUserBuildSettings.activeBuildTarget);
+
+
+
         //foreach (UnityEngine.Object obj in Selection.GetFiltered(typeof(UnityEngine.Object), SelectionMode.Assets))
         //{
         //    var path = AssetDatabase.GetAssetPath(obj);
